@@ -1,10 +1,31 @@
-@media (max-width: 554px) {
+@media (max-width: 450px) {
+    nav{
+        position: relative;
+    }
     .nav-logo h2{
-        font-size: 4.5vw;
+        font-size: 5vw;
     }
     .nav-logo img{
         width: 4vw;
         margin-right: 5px;
+    }
+    .nav-menu ul{
+        display: none;
+        position: absolute;
+        top: 50%;
+        right: -3vw;
+    }
+    .nav-menu ul li{
+        
+    }
+    #icon{
+        display: block;
+    }
+    .nav-menu ul li a{
+        font-size: 2vw;
+        background: #e3e0e0;
+        padding: 3px 5px;
+        border-radius: 6px;
     }
     .header-body{
         display: block;
@@ -25,10 +46,10 @@
         width: 9vw;
     }
     p{
-        font-size: 2.5vw;
+        font-size: 3.2vw;
     }
     button{
-        font-size: 2.5vw;
+        font-size: 2.8vw;
     }
     .header-image{
         height: 60%;
@@ -37,7 +58,7 @@
     }
     .header-image img{
         height: 80%;
-        width: 70%;
+        width: 85%;
     }
     #home-side-img{
         width: 21vw;
