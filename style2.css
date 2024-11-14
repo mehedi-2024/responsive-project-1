@@ -1,0 +1,45 @@
+@media (max-width: 554px) {
+    .nav-logo h2{
+        font-size: 3.5vw;
+    }
+    .nav-logo img{
+        width: 3vw;
+        margin-right: 5px;
+    }
+    .header-body{
+        display: block;
+    }
+    .head-text{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .head-text h1{
+        font-size: 12vw;
+        line-height: 11vw;
+    }
+    h1 img{
+        width: 9vw;
+    }
+    p{
+        font-size: 2.5vw;
+    }
+    button{
+        font-size: 2.5vw;
+    }
+    .header-image{
+        height: 50%;
+        width: 100%;
+    }
+    .header-image img{
+        height: 95%;
+        width: 70%;
+    }
+    #home-side-img{
+        width: 21vw;
+        bottom: 30vh;
+    }
+}
