@@ -1,6 +1,9 @@
 @media (max-width: 450px) {
+    
     nav{
         position: relative;
+        height: 6vh;
+        border: none;
     }
     .nav-logo h2{
         font-size: 5vw;
@@ -15,8 +18,15 @@
         top: 50%;
         right: -3vw;
     }
+    .nav-menu .mobile-menu{
+        display: inline-flex;
+        gap: 6vw;
+    }
+    .mobile-menu i{
+        font-size: 5vw;
+    }
     .nav-menu ul li{
-        
+        margin: 2px;
     }
     #icon{
         display: block;
@@ -63,5 +73,17 @@
     #home-side-img{
         width: 21vw;
         bottom: 45vh;
+    }
+    .page1-card{
+        flex-direction: column;
+        justify-content: center;
+        overflow: visible;
+        margin-top: 5vh;
+    }
+    h2{
+        font-size: 6vw;
+    }
+    .page2{
+        height: 300vh;
     }
 }
